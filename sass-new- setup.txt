@@ -1,0 +1,14 @@
+sass new setup
+https://nodejs.org/en/download/
+https://www.youtube.com/watch?v=Do7ivdaQU8Y
+
+1. Nodejs download and install
+2. visual studio open
+	make new folder 
+		scss
+			style.scss
+			index.html
+3. Extenstion : live sass compiler
+	watching in bottom vs app
+4. Include css in index file
+5. Open with live server

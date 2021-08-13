@@ -1,0 +1,11 @@
+english or arabic rtl slider js
+if (document.documentElement.lang === "en-US") {
+	  $('.banner-slider').slick({
+		rtl: false
+	});
+} else if (document.documentElement.lang === "ar") {
+	$('.banner-slider').slick({
+		rtl: true
+	});
+}
+

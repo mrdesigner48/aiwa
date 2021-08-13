@@ -1,0 +1,67 @@
+gmail aiwa
+plk@aiwa.digital
+Pk@aiwa1
+
+
+FTP :
+Hostname: myaiwa.com
+Username: developers@myaiwa.com
+Password: pD2r^6*[x#$%
+Port: 21
+Sit URl : https://myaiwa.com/
+
+====================================
+
+aiwa.digital FTP: Done
+
+FTP:
+Hostname: aiwa.digital
+Username: ahmedabad@aiwa.digital
+Password: vi57@%r%4I|8
+Port: 21
+
+Site URL : https://aiwa.digital/
+
+===================================
+
+FTP: Done
+Hostname: aiwa.website
+Username: designer@aiwa.website
+Password: 15%6_+{~%4x@
+Port: 21
+
+Site URL : https://aiwa.website/
+
+
+==================================
+
+FTP :
+FTP Username: developer@aiwadigital.com
+FTP server: ftp.aiwadigital.com
+FTP & explicit FTPS port:  21
+fS_$XmD&S*}f
+
+Site URL : http://aiwadigital.com/
+
+
+
+Gulfstream Infotech
+cPanel login: w0zhsmbyu2h0
+Pass: @@Gul##123
+https://www.gulfstreaminfotech.com/cpanel
+
+
+VPN Details :
+
+https://151.253.55.204:443
+Username : aiwa
+Password : aiwa@1234
+
+Then use the below FTP credentials: 
+
+Server IP: 192.168.100.112
+Username: Webdev
+Password: Admin@2020
+
+Then go to /var/www/html/ folder. 
+/var/www/html/wp-content/themes/mvu

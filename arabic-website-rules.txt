@@ -1,0 +1,79 @@
+Arabic website need to make
+
+https://codepen.io/Nekto/pen/NJObNX
+
+
+for wordpress theme
+https://www.youtube.com/watch?v=EBYcLcoPlt0
+https://www.youtube.com/watch?v=Alu3hueij1U
+
+add attribute in html tag <html dir="rtl">
+extra index-ar.html page
+extra rtl.css file
+
+add class in body "arabic/rtl"
+
+css
+body.rtl{
+	direction:rtl;
+	text-align:right;
+}
+
+
+
+Web Developer
+HMX Media Private Limited
+
+Web Developer
+Digital Tokri
+
+Graphic Designer
+Alco Foods Pvt Ltd
+
+Web Developer / Web Designer - Intermediate
+Tech-Allies Solutions
+
+Web Designer
+Codevian Technologies Pvt Ltd.
+
+
+Linosys Solutions
+
+Front End Engineer
+Exxat Systems Pvt. Ltd
+
+UX Designer for Mobile & Web App Design
+Innofied
+
+UI UX Designer and Developer
+Techasoft
+
+Graphic Designer
+Shades of Web
+
+
+
+
+https://www.w3schools.com/cssref/css_animatable.asp
+
+Interview question
+
+Design
+How to create icon for app all devices in photoshop
+
+
+HTML
+1. How to make same height of title and paragraph and align btn in every row
+2. How to judge html5 used in browser not code
+3. How to set for a tag property only first a tag 
+4. What is different between (em) or (rem) or (pt) and what is benefit for use this
+5. What is css entities
+6. What is Aural Style Sheets
+7. What is CSS Functions
+8. what is CSS box-decoration-break Property
+9. What is background-blend-mode Property
+10. What is background-origin
+11. How to manage space in paragraph between words  ans : ( pre tag use, css - tab-size:20 )
+12. 
+
+

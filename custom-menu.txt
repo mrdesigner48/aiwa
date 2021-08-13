@@ -1,0 +1,253 @@
+https://www.w3schools.com/code/tryit.asp?filename=GT4ITI9Y7BIV
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $("<div class='fa fa-angle-right submenu-toogle'></div>").insertAfter("#header-menu .menu-item-has-children > a");
+    $("#header-menu .menu-item-has-children .submenu-toogle").click(function() {
+            var link = $(this);
+            var closest_ul = link.closest("ul");
+            var parallel_active_links = closest_ul.find(".active")
+            var closest_li = link.closest("li");
+            var link_status = closest_li.hasClass("active");
+            var count = 0;
+
+            closest_ul.find("ul").slideUp(function() {
+                    if (++count == closest_ul.find("ul").length)
+                            parallel_active_links.removeClass("active");
+            });
+
+            if (!link_status) {
+                    closest_li.children("ul").slideDown();
+                    closest_li.addClass("active");
+            }
+    });
+});
+</script>
+  
+  <style>
+  
+  	/* Code By Webdevtrick ( https://webdevtrick.com ) */
+* {
+		margin: 0;
+		padding: 0;
+}
+
+body {
+		background: #8dd4ff;
+		font-family: Nunito, arial, verdana;
+}
+
+#header-menu {
+		background: #004050;
+		width: 250px;
+		margin: 50px auto 0 auto;
+		color: white;
+		box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+/* 
+#header-menu h3 {
+		background: #003040;
+		background: -webkit-gradient(linear, left top, left bottom, from(#003040), to(#002535));
+		background: linear-gradient(#003040, #002535);
+} */
+
+#header-menu a {
+		padding: 0 10px;
+		font-size: 12px;
+		line-height: 34px;
+		display: block;
+		color: white;
+		text-decoration: none;
+
+		/*width: 100%;*/
+		/*width: calc(100% - 50px);*/
+}
+
+/* #header-menu h3:hover {
+		text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+} */
+
+i {
+		margin-right: 10px;
+}
+
+#header-menu li {
+		list-style-type: none;
+}
+
+#header-menu ul ul li a,
+#header-menu h4 {
+		color: white;
+		text-decoration: none;
+		font-size: 11px;
+		line-height: 27px;
+		display: block;
+		padding: 0 15px;
+		-webkit-transition: all 0.15s;
+		transition: all 0.15s;
+		position: relative;
+}
+
+#header-menu ul ul li a:hover {
+		background: #003545;
+		border-left: 5px solid lightgreen;
+}
+
+#header-menu ul ul {
+		display: none;
+}
+
+#header-menu li.active>ul {
+		display: block;
+}
+
+#header-menu ul ul ul {
+		/*margin-left: 15px;*/
+		border-left: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+#header-menu .menu-item-has-children{
+		position: relative;
+
+		/*display: flex;
+		justify-content: space-between;*/
+}
+#header-menu .menu-item-has-children .sub-menu .menu-item a{
+	background: #114a58;
+}
+#header-menu .menu-item-has-children .sub-menu .menu-item .sub-menu .menu-item a{
+	background: #1c5b6b;
+}
+#header-menu .menu-item-has-children .sub-menu .menu-item .sub-menu .menu-item .sub-menu .menu-item a{
+	background: #2a7386;
+}
+#header-menu .menu-item-has-children .sub-menu .menu-item .submenu-toogle{
+	height: 27px;
+}
+/* 
+#header-menu .menu-item-has-children:after {
+		content: "\f104";
+		font-family: fontawesome;
+		position: absolute;
+		right: 10px;
+		top: 0;
+		font-size: 14px;
+}
+
+#header-menu .menu-item-has-children.active:after {
+		content: "\f107";
+} */
+#header-menu .menu-item-has-children.active > .submenu-toogle:before{
+	content: "\f107";
+}
+.submenu-toogle {
+    width: 30px;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 34px;
+}
+</style>
+  
+</head>
+<body>
+<br>
+
+<div class="container">
+  <h2>Menu custom</h2>
+  <br>
+  <div id="header-menu" class="header-menu">
+        <ul id="main-menu" class="main-menu">
+            <li class="menu-item menu-item-has-children">
+                <a href="#"><i class="fa fa-lg fa-tachometer"></i>Dashboard</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">Reports</a></li>
+                    <li class="menu-item"><a href="#">Search</a></li>
+                    <li class="menu-item"><a href="#">Graphs</a></li>
+                    <li class="menu-item"><a href="#">Settings</a></li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#"><i class="fa fa-lg fa-tasks"></i>Technologies</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">Tech List</a></li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="#">Codes</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="#">HTML</a></li>
+                            <li class="menu-item"><a href="#">CSS</a></li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">JavaScript</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="#">React JS</a></li>
+                                    <li class="menu-item"><a href="#">Node JS</a></li>
+                                    <li class="menu-item"><a href="#">Angular JS</a></li>
+                                    <li class="menu-item"><a href="#">jQuery</a></li>
+                                    <li class="menu-item"><a href="#">Anime JS</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">PHP</a></li>
+                            <li class="menu-item"><a href="#">Python</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="#">Softwares</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="#">Photoshop</a></li>
+                            <li class="menu-item"><a href="#">Illustrator</a></li>
+                            <li class="menu-item"><a href="#">Premiere Pro</a></li>
+                            <li class="menu-item"><a href="#">After Effects</a></li>
+                            <li class="menu-item"><a href="#">Lightroom</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#">Frontent</a></li>
+                    <li class="menu-item"><a href="#">Backend</a></li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+                <a href="#"><i class="fa fa-lg fa-calendar"></i></span>Calendar</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">Current Month</a></li>
+                    <li class="menu-item"><a href="#">Current Week</a></li>
+                    <li class="menu-item"><a href="#">Previous Month</a></li>
+                    <li class="menu-item"><a href="#">Previous Week</a></li>
+                    <li class="menu-item"><a href="#">Next Month</a></li>
+                    <li class="menu-item"><a href="#">Next Week</a></li>
+                    <li class="menu-item"><a href="#">Team Calendar</a></li>
+                    <li class="menu-item"><a href="#">Private Calendar</a></li>
+                    <li class="menu-item"><a href="#">Settings</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#"><i class="fa fa-lg fa-heart"></i>Favourites</a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">Global favs</a></li>
+                    <li class="menu-item"><a href="#">My favs</a></li>
+                    <li class="menu-item"><a href="#">Team favs</a></li>
+                    <li class="menu-item"><a href="#">Settings</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+   
+</div>
+
+</body>
+</html>

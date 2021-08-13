@@ -1,0 +1,76 @@
+english or arabic rtl slider js
+if (document.documentElement.lang === "en-US") {
+	  $('.banner-slider').slick({
+		rtl: false
+	});
+} else if (document.documentElement.lang === "ar") {
+	$('.banner-slider').slick({
+		rtl: true
+	});
+}
+
+
+menu js
+http://eric.aiwadigital.com/
+
+jQuery(document).ready(function() {
+mobile_nav()
+
+});
+// > Nav submenu show hide on mobile by = custom.js
+	 function mobile_nav(){
+		jQuery(".sub-menu").parent('li').addClass('has-child');
+		jQuery(".mega-menu").parent('li').addClass('has-child');
+		jQuery("<div class='fa fa-angle-right submenu-toogle'></div>").insertAfter(".has-child > a");
+		jQuery('.has-child a+.submenu-toogle').on('click',function(ev) {
+			jQuery(this).next(jQuery('.sub-menu')).slideToggle('fast', function(){
+				jQuery(this).parent().toggleClass('nav-active');
+			});
+			ev.stopPropagation();
+		});
+	 }
+
+
+// menu js psk 
+jQuery(document).ready(function() {
+	mobile_nav()
+	
+});
+// > Nav submenu show hide on mobile by = custom.js
+function mobile_nav(){
+    jQuery(".sub-menu").parent('li').addClass('has-child');
+    jQuery("<div class='fa fa-angle-right submenu-toogle'></div>").insertAfter(".has-child > a");
+    jQuery('.has-child .submenu-toogle').on('click',function(ev) {
+		 /* jQuery(this).next(jQuery('.sub-menu')).slideToggle('fast', function(){
+			jQuery(this).parent().toggleClass('nav-active');
+		});  */
+		jQuery(this).toggleClass('icon-toggle');
+		jQuery(this).next(jQuery('.sub-menu')).toggleClass('nav-active');
+		ev.stopPropagation();
+	});
+}
+
+
+Back to top
+
+(function($) {
+ "use strict";
+ 
+$(document).ready(function(){
+
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 500);
+		return false;
+	});
+
+});
+
+})(jQuery);

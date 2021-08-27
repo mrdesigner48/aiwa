@@ -1,4 +1,19 @@
 
+Gallery demo
+https://codemyui.com/tag/image-gallery/
+https://codepen.io/ZaneHannanAU/pen/vXBXvx
+https://codepen.io/z-/pen/OBPJKK
+https://codepen.io/suez/pen/AXQaEg
+https://codepen.io/team/keyframers/pen/aboBjar
+https://mdbootstrap.com/docs/standard/extended/gallery/
+
+Hover accordion
+https://stackoverflow.com/questions/35378285/jquery-accordion-on-hover-instead-of-click
+https://www.w3schools.com/code/tryit.asp?filename=GTU51YJLEC6Q
+
+Toggle switch on click show hide
+https://www.w3schools.com/code/tryit.asp?filename=GTL7XR3UUWJY
+
 Tab menu resposive
 https://codepen.io/dakshank/pen/byyKeL
 https://codepen.io/bourkekev/pen/nDftb

@@ -1,0 +1,105 @@
+<!-- Hover accordion -->
+  <!-- https://www.w3schools.com/code/tryit.asp?filename=GTU51YJLEC6Q -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+  <script>
+    $(function() {
+      $('#accordion_pk .panel').hover(function() {
+         $(this).find(".card-link .indicator").removeClass("fa-angle-down").addClass("fa-angle-up");
+        $(this).find(".panel-collapse").collapse("show");
+      }, function() {
+        var $collapse = $(this).find(".panel-collapse");
+         $(this).find(".card-link .indicator").addClass("fa-angle-down").removeClass("fa-angle-up");
+        setTimeout(function(){
+          $collapse.collapse("hide");
+        },400);
+      });
+    });
+  </script>
+
+  
+
+
+</head>
+<body>
+
+ 
+
+<div class="container">
+  <div class="panel-group" id="accordion_pk">
+							  		<div class="panel panel-default">
+									    <div class="panel-heading">
+
+
+									      <h4 class="card-header home-contact-us-title">
+									        <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion_pk" href="#collapseOne">
+									          Cortec Middle East  <i class="indicator fas fa-angle-down"></i> 
+									        </a>
+									      </h4>
+									    </div>
+							    		<div id="collapseOne" class="panel-collapse collapse">
+							      			<div class="card-body">
+												<address>
+													Office 1307 Sidra Tower PO Box 115 113 Dubai, United Arab Emirates
+												</address>
+												<p>Tel: <a href="tel:+ 971 4 434 0669" title="">+ 971 4 434 0669</a></p>
+												<p>Fax: <a href="tel:+971 4 434 0668" title="">+971 4 434 0668</a></p>
+												<p>Email: <a href="mailto:inquiries@cortec-me.com" title="">inquiries@cortec-me.com</a></p> 
+											</div>
+							    		</div>
+							  		</div> 
+				  					<div class="panel panel-default">
+									    <div class="panel-heading card">
+									      <h4 class="card-header home-contact-us-title">
+									        <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion_pk" href="#collapsetwo">
+									          Cortec Southeast Asia <i class="indicator fas fa-angle-down"></i> 
+									        </a>
+									      </h4>
+									    </div>
+							    		<div id="collapsetwo" class="panel-collapse collapse">
+							      			<div class="card-body">
+												<address>
+													Office 1307 Sidra Tower PO Box 115 113 Dubai, United Arab Emirates
+												</address>
+												<p>Tel: <a href="tel:+ 971 4 434 0669" title="">+ 971 4 434 0669</a></p>
+												<p>Fax: <a href="tel:+971 4 434 0668" title="">+971 4 434 0668</a></p>
+												<p>Email: <a href="mailto:inquiries@cortec-me.com" title="">inquiries@cortec-me.com</a></p> 
+											</div>
+							    		</div>
+				  					</div>
+					  				<div class="panel panel-default">
+									    <div class="panel-heading">
+									      <h4 class="card-header home-contact-us-title">
+									        <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion_pk" href="#collapsethree">
+									         Cortec Egypt <i class="indicator fas fa-angle-down"></i>  
+									        </a>
+									      </h4>
+									    </div>
+							    		<div id="collapsethree" class="panel-collapse collapse">
+							      			<div class="card-body">
+												<address>
+													Office 1307 Sidra Tower PO Box 115 113 Dubai, United Arab Emirates
+												</address>
+												<p>Tel: <a href="tel:+ 971 4 434 0669" title="">+ 971 4 434 0669</a></p>
+												<p>Fax: <a href="tel:+971 4 434 0668" title="">+971 4 434 0668</a></p>
+												<p>Email: <a href="mailto:inquiries@cortec-me.com" title="">inquiries@cortec-me.com</a></p> 
+											</div>
+							  			</div>
+									</div>
+									 
+							    		 
+								</div>
+</div>
+
+</body>
+</html>

@@ -77,3 +77,27 @@ HTML
 12. 
 
 
+Elsner Technologies
+1. Which add new input type in BS5
+2. What is grow flex ans flex shrink
+3. what use of flex-basis
+4. what is align content
+5. what is utility classes
+6. what is Box Model
+7. box sizing all property 
+Ans= box-sizing : content-box - He is count padding and border
+	 box-sizing : border-box - He is not count padding and border
+8. what is different opacity or visibility hidden 
+Ans= opacity:0 = pointer event working
+	visibility:hidden = pointer event not working
+9. what is gutter and where put this class 
+Ans= add gutter class in row 
+	"no-gutters" is define all cols padding remove or not and margin in row this is only for bs4
+		
+10. how to use mixin
+11. what is clip
+12. what is grid
+13. without theme css slider is working or not
+14. what use of toggleclass
+15. What is em tag uses
+16. 

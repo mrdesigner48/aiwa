@@ -1,8 +1,8 @@
-https://aiwadigital.com/cortec-new/
 Project live links
 
 Abbas
-https://aiwadigital.com/ggsalon/html/
+http://abbasaccounting.com/
+https://aiwadigital.com/abbasaccounting/staging
 
 GG Salon
 https://ggsalonuae.com/
@@ -14,32 +14,43 @@ https://xd.adobe.com/view/838d331d-300d-468b-86d6-3c77ca064eb2-d6de/specs/
 https://myaiwa.com/alliott-hadi/About-us.html
 
 UAEU
+aiwadigital
+aiwadigitaldubai
 http://aiwadigital.com/uaeu/html/
-
 
 Tawtheeq
 http://aiwadigital.com/Tawtheeq/html/
 
+oceankidds
+http://aiwadigital.com/oceankidds-new/staging/
 
+Cortect
+https://xd.adobe.com/view/3dbdd86a-2d9e-4ca2-91ab-15e97da9047b-68ee/
+https://aiwadigital.com/cortec-bkp/
+https://aiwadigital.com/cortec-html/
+
+
+SZGMC
+https://xd.adobe.com/view/383dba23-cc07-4f44-bafe-32b61c2a0f3d-6d6e/
+https://aiwadigital.com/szgmc
+
+
+animate css
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
 
 Fontawesome
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
+owl carousel
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css
+https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js
 
 <link rel="stylesheet" href="https://aiwadigital.com/ggsalon/staging/wp-content/themes/ggsalon/assets/css/owl.carousel.min.css">
 <link rel="stylesheet" href="https://aiwadigital.com/ggsalon/staging/wp-content/themes/ggsalon/assets/css/owl.theme.css">
 
 <script src="https://aiwadigital.com/ggsalon/staging/wp-content/themes/ggsalon/assets/js/owl.carousel.min.js"></script> 
-
-
-14477:11-08-21
-	5789 lic
-	3000 cc pay
-	
+ 

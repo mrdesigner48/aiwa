@@ -1,0 +1,18 @@
+.modal * {
+    scrollbar-width: auto;
+    scrollbar-color: red #000;
+      }
+
+  / Chrome, Edge, and Safari /
+  .modal *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .modal *::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  .modal *::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 0;
+  }

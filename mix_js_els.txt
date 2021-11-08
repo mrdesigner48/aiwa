@@ -1,0 +1,17 @@
+
+//Preloader js
+
+$(function() {
+setTimeout(function() { $("#hideDiv").fadeOut(1500); }, 5000)
+
+})
+
+//Slide down toggle
+
+$('.footer-heading > span').click(function(){
+        $(this).parents('.footer-menu-col').toggleClass('menu-open');
+        $(this).parents('.footer-menu-col').siblings().removeClass('menu-open');
+    });
+	
+	
+	

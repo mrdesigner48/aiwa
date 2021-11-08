@@ -1,0 +1,16 @@
+svg animation slider effects
+https://layerslider.com/sliders/
+
+click on btn Gallery slider start
+http://tympanus.net/codrops/2014/01/28/scattered-polaroids-gallery/
+
+
+
+Select radio type images demo
+https://bootsnipp.com/snippets/xNGMB
+https://freefrontend.com/css-radio-buttons/
+https://codepen.io/ig_design/pen/dLNKgM
+
+
+scroll for all web browser
+http://www.hesido.com/web.php?page=customscrollbar

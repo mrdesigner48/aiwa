@@ -1,0 +1,143 @@
+
+
+<label class="checkbox_ps">
+                    <div class="checkbx text-dark">
+                      <input type="checkbox" name="remember_me">
+                      <span class="checkmark"></span>
+                      Remember me
+                    </div>
+                  </label>
+				  
+
+.checkbox_ps {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #484848;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox_ps .checkbx {
+    line-height: initial;
+}
+
+.checkbox_ps input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    transition: all .4s ease-in-out;
+}
+
+.checkbox_ps:hover input~.checkmark {
+    /*background-color: #ccc;*/
+    border-color: #1a396f;
+}
+
+.checkbox_ps .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #1a396f;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: none;
+}
+
+.checkbox_ps input:checked~.checkmark:after {
+    display: block;
+}
+
+
+
+
+
+<div class="radio_ps">	
+			                                    <div class="radio_list">
+			                                    	<input type="radio" name="select-gender" id="female">
+			                                    	<label class="lbl" for="female">Female </label>
+			                                    </div>
+			                                    <div class="radio_list">
+			                                    	<input type="radio" name="select-gender" id="male">
+			                                    	<label class="lbl" for="male">Male </label>
+			                                    </div>
+		                                	</div>
+											
+											
+											
+											
+/*radio ps*/
+.radio_ps [type="radio"]:checked,
+.radio_ps [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.radio_ps [type="radio"]:checked + label,
+.radio_ps [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.radio_ps [type="radio"]:checked + label:before,
+.radio_ps [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #C9D0DA;
+    border-radius: 100%;
+    background: #fff;
+}
+.radio_ps [type="radio"]:checked + label:after,
+.radio_ps [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background: #4E827B;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.radio_ps [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.radio_ps [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+											
